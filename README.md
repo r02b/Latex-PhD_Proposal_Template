@@ -1,6 +1,6 @@
-# Latex  PhD Proposal Template
+# Latex PhD Research Proposal Template
 
-* A simple yet elegant Latex template for PhD proposals.
+* A simple Latex template for PhD research proposals.
 * Easy to customize: add your details as variables, and even your university logo.
 
 
