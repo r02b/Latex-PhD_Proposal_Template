@@ -1,0 +1,40 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   PhD Proposal Latex Template
+%   By Noga H. Rotman
+%
+%   Sty file.
+%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{phd-proposal}[2020/07/01 Custom Package]
+
+% \RequirePackage{lmodern}
+
+%% 'sans serif' option
+% \DeclareOption{sans}{
+%   \renewcommand{\familydefault}{\sfdefault}
+% }
+
+% %% 'roman' option
+% \DeclareOption{roman}{
+%   \renewcommand{\familydefault}{\rmdefault}
+% }
+
+%% Global indentation option
+\newif\if@neverindent\@neverindentfalse
+\DeclareOption{neverindent}{
+  \@neverindenttrue
+}
+
+\ExecuteOptions{roman}
+
+\ProcessOptions\relax
+
+\newlength{\pardefault}
+\setlength{\pardefault}{\parindent}
+\newcommand{\neverindent}{ \setlength{\parindent}{0pt} }
+\newcommand{\autoindent}{ \setlength{\parindent}{\pardefault} }
+
+
+\endinput

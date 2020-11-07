@@ -1,0 +1,58 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   PhD Proposal Latex Template
+%   By Noga H. Rotman
+%
+%   This file will show you how to use this package.
+%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \documentclass{phd_proposal}
+\documentclass[widemargins, newpage]{phd_proposal}
+% \documentclass[draft]{phd_proposal}
+
+% \documentclass[removefigures]{phd_proposal}
+
+
+\usepackage{lipsum}
+\usepackage{hyperref}
+
+
+%%%%% Info for the reseach proposal %%%%%
+% \title{PhD Proposal template}
+\title{A really cool and long title for your awesome research proposal}
+\author{You!}
+\supervisor{Your Supervisor}
+\institution{Some University Name}
+\school{School of Nonsense}
+\logo{png} % Optional. The logo file should be named 'logo' and be located in the 'figures' folder. The value is the format of the file (could be JPG, PNG,...)
+\logowidth{0.2} % Optional, only works if the 'logo' variable is given. Width of the logo is calculated as a ration to the text width. Default is 0.1.
+
+
+%%%%% Document %%%%%
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\lipsum[1]
+\end{abstract}
+
+% \newpage
+% \input{introduction}
+
+\section{Introduction}
+This template~\cite{github-repo} should be easy enough to use out of the box, but there are some cool features you might want to play around with.
+It is given under the MIT license~\cite{mit-license}.
+
+\section{Usage}
+
+See the README.MF file
+
+
+
+
+\bibliographystyle{abbrv}
+\begin{small}
+\bibliography{references.bib}
+\end{small}
+\end{document}
