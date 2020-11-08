@@ -1,6 +1,6 @@
 # Latex PhD Research Proposal Template
-![GitHub](https://img.shields.io/github/license/r02b/Latex-PhD_Proposal_Template)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/r02b/Latex-PhD_Proposal_Template?include_prereleases)
+[![GitHub](https://img.shields.io/github/license/r02b/Latex-PhD_Proposal_Template)](https://github.com/r02b/Latex-PhD_Proposal_Template/blob/main/LICENSE)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/r02b/Latex-PhD_Proposal_Template?include_prereleases)](https://github.com/r02b/Latex-PhD_Proposal_Template/releases)
 
 * A simple Latex template for PhD research proposals.
 * Easy to customize: add your details as variables, and even your university logo.
